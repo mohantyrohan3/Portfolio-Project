@@ -112,10 +112,62 @@ a{
 
 #intro{
     height: 500px;
-    width: 300px;
-    border: 1px solid black;
+    width: 75%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow : 0 5px 10px rgba(0,0,0,0.1);
+    background-color: white;
 
 }
+
+#intro #p{
+    text-align: left;
+    font-family: 'Itim', cursive;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+#name{
+    font-size: 2rem;
+    margin-bottom: 6rem;
+    color: #81ac9d;
+}
+
+#small-about{
+    text-align: justify;
+    width: 70%;
+    font-family: 'Itim', cursive;
+    color: grey;
+    font-size: 1.3rem;
+}
+
+
+
+/* Animation */
+
+.typewriter {
+    width: 55%;
+    animation: typing 4s steps(22) infinite alternate, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
 
 
 
@@ -124,24 +176,11 @@ a{
 .card{
     height: 20rem;
     width: 20rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
     background-color: #fff;
     border-radius: 20px;
     box-shadow : 0 5px 10px rgba(0,0,0,0.1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media  (max-width:1600px) {
@@ -212,6 +251,21 @@ a{
     #image {
         height: 45%;
         width: 55%;
+    }
+    #name{
+        font-size: 1.1rem;
+    }
+    #intro p{
+        font-size: 0.8rem;
+
+    }
+    .typewriter{
+        width: 80%;
+    }
+    #small-about{
+        font-size: 0.8rem;
+        text-align: justify;
+        width: 90%;
     }
     
 }
