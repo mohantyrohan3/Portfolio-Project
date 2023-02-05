@@ -100,6 +100,15 @@ a{
 }
 
 
+#cv{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 6rem;
+    color: #182c00;
+}
+
+
 
 #intro{
     height: 500px;
@@ -140,6 +149,9 @@ a{
         top: -7rem;
         left: 11rem;
     }
+    #cv{
+        bottom: 5rem;
+    }
     
 }
 
@@ -148,6 +160,9 @@ a{
     #download{
         top: -7rem;
         left: 8rem;
+    }
+    #cv{
+        bottom: 4rem;
     }
     
 }
@@ -162,6 +177,9 @@ a{
     #icons{
         top: -2rem;
         left: -6rem;
+    }
+    #cv{
+        bottom: 3rem;
     }
     
 }
@@ -190,10 +208,6 @@ a{
     #icons{
         top: -2.5rem;
         left: 0rem;
-    }
-    #image{
-        height: 40%;
-        width: 60%;
     }
     
 }
