@@ -17,7 +17,6 @@ body{
 #outer-left{
     height: 100%;
     width: 50%;
-    /* border:1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,10 +39,7 @@ body{
 }
 
 a{
-    /* translate: 15rem  -10rem; */
-    /* margin-bottom: 15rem; */
     font-weight: lighter;
-    
 }
 
 #button{
@@ -74,6 +70,71 @@ a{
     box-shadow : 0 5px 10px rgba(0,0,0,0.1);
 }
 
+
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -4rem;
+    left: -13rem;
+
+}
+
+.icon{
+    font-size: 2rem;
+    margin: 0.8rem;
+}
+
+.icon a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:1600px) {
+    #download{
+        top: -7rem;
+        left: 11rem;
+    }
+    
+}
+
+
+@media  (max-width:1300px) {
+    #download{
+        top: -7rem;
+        left: 8rem;
+    }
+    
+}
+
+
+@media  (max-width:1000px) {
+    #download{
+        top: -5rem;
+        left: 6rem;
+    }
+
+    #icons{
+        top: -2rem;
+        left: -6rem;
+    }
+    
+}
+
+
+
+
+
 @media  (max-width:700px) {
     body{
         flex-direction: column-reverse;
@@ -87,6 +148,10 @@ a{
     #download{
         top: -2rem;
         left: 0;
+    }
+    #icons{
+        top: -2.5rem;
+        left: 0rem;
     }
     
 }
