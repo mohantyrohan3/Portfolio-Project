@@ -209,6 +209,10 @@ a{
         top: -2.5rem;
         left: 0rem;
     }
+    #image {
+        height: 45%;
+        width: 55%;
+    }
     
 }
 
