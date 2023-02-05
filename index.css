@@ -120,6 +120,7 @@ a{
     flex-direction: column;
     box-shadow : 0 5px 10px rgba(0,0,0,0.1);
     background-color: white;
+    border-radius: 20px;
 
 }
 
@@ -239,6 +240,10 @@ a{
     #outer-right{
         width: 100%;
         position: static;
+    }
+    #intro{
+        height: 20rem;
+        width: 20rem;
     }
     #download{
         top: -2rem;
