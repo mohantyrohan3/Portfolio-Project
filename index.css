@@ -173,8 +173,9 @@ a{
     border-radius: 20px;
     box-shadow : 0 5px 10px rgba(0,0,0,0.1);
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -188,22 +189,60 @@ a{
     font-family: cursive;
     background-color:  #81ac9d;
     color: white;
-    box-shadow : 0 5px 10px rgba(0,0,0,0.1);
+    box-shadow : 0 5px 10px rgb(72, 71, 71);
     font-size: 1rem;
+    font-family: 'Itim', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
+.content-card{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 4rem;
+}
 
 
+.date{
+    font-family:'Itim', cursive ;
+    height: 10%;
+    width: 25%;
+    border: 2px solid  #81ac9d ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
 
 
+.iiit ul{
+    list-style: none;
+    font-family:'Itim', cursive ;
+    font-size: 0.9rem;
+}
+
+.first-li{
+    font-size: 1.2rem;
+}
+ul a{
+    color: black;
+    text-decoration: none;
+}
 
 
+#second-edu-date{
+    margin-top: 4rem;
+}
 
-
-
-
+#edu-card{
+    height: 450px;
+}
 
 
 
@@ -329,7 +368,6 @@ a{
     }
     #image {
         height: 45%;
-        width: 60%;
     }
     #name{
         font-size: 1.8rem;
@@ -344,12 +382,22 @@ a{
         to { width: 30% }
     }
     #small-about{
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: justify;
         width: 90%;
     }
     .small-intro{
         font-size: 0.7rem;
+        width: 40%;
+    }
+    .date{
+        font-size: 0.6rem;
+    }
+    .iiit ul{
+        font-size: 0.6rem;
+    }
+    .first-li{
+        font-size: 0.8rem;
     }
     
 }
