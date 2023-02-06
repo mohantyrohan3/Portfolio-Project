@@ -135,6 +135,7 @@ a{
     font-size: 3rem;
     margin-bottom: 6rem;
     color: #81ac9d;
+    font-family: 'Itim', cursive;
 }
 
 #small-about{
@@ -218,6 +219,7 @@ a{
     align-items: center;
     margin-bottom: 1rem;
     margin-left: 1rem;
+    color: grey;
 }
 
 
@@ -225,13 +227,14 @@ a{
     list-style: none;
     font-family:'Itim', cursive ;
     font-size: 0.9rem;
+    color: grey;
 }
 
 .first-li{
     font-size: 1.2rem;
 }
 ul a{
-    color: black;
+    color: grey;
     text-decoration: none;
 }
 
@@ -330,8 +333,20 @@ ul a{
     .small-intro{
         font-size: 0.8rem;
     }
+    .date{
+        font-size: 0.6rem;
+    }
+    .iiit ul{
+        font-size: 0.6rem;
+    }
+    .first-li{
+        font-size: 0.8rem;
+    }
     
 }
+
+
+
 
 
 
