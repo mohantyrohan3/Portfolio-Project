@@ -185,14 +185,14 @@ a{
     }
     @keyframes typing {
         from { width: 0 }
-        to { width: 28% }
+        to { width: 27% }
     }
     #name{
-        font-size: 2.7rem;
-        margin-bottom: 6rem;
+        font-size: 2.1rem;
+        margin-bottom: 7rem;
     }
     #small-about{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         text-align: justify;
         width: 90%;
     }
@@ -208,6 +208,10 @@ a{
     #cv{
         bottom: 4rem;
     }
+    #image {
+        height: 45%;
+        width: 50%;
+    }
     
 }
 
@@ -215,7 +219,7 @@ a{
 @media  (max-width:1000px) {
     #download{
         top: -5rem;
-        left: 6rem;
+        left: 5rem;
     }
 
     #icons{
@@ -227,16 +231,27 @@ a{
     }
     #name{
         font-size: 2rem;
-        /* margin-bottom: 6rem; */
     }
     #small-about{
-        font-size: 1.1rem;
+        font-size: 1rem;
         text-align: justify;
         width: 90%;
     }
     @keyframes typing {
     from { width: 0 }
-    to { width: 27% }
+    to { width: 29% }
+    }
+    #intro{
+        height: 400px;
+        width: 90%;
+    }
+    .card{
+        height: 400px;
+        width: 90%;
+    }
+    #image {
+        height: 45%;
+        width: 70%;
     }
     
 }
@@ -245,7 +260,7 @@ a{
 
 
 
-@media  (max-width:700px) {
+@media  (max-width:600px) {
     body{
         /* height: 3000px; */
         flex-direction: column-reverse;
@@ -276,14 +291,14 @@ a{
     }
     #image {
         height: 45%;
-        width: 75%;
+        width: 60%;
     }
     #name{
         font-size: 1.8rem;
         margin-bottom: 3rem;
     }
-    #intro p{
-        font-size: 0.8rem;
+    #intro #p{
+        font-size: 1rem;
 
     }
     @keyframes typing {
@@ -291,7 +306,7 @@ a{
         to { width: 30% }
     }
     #small-about{
-        font-size: 0.8rem;
+        font-size: 1rem;
         text-align: justify;
         width: 90%;
     }
