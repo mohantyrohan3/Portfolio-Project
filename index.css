@@ -132,7 +132,7 @@ a{
 }
 
 #name{
-    font-size: 3rem;
+    font-size: 10rem;
     margin-bottom: 6rem;
     color: #81ac9d;
     font-family: 'Itim', cursive;
@@ -157,6 +157,7 @@ a{
     font-weight: 100;
     animation: typing 3s steps(100, end) infinite;
     margin-top: 2rem;
+    font-size: 10rem;
   }
 
   @keyframes typing {
@@ -386,7 +387,7 @@ ul a{
         height: 45%;
     }
     #name{
-        font-size: 1.8rem;
+        font-size: 2.5rem;
         margin-bottom: 3rem;
     }
     #intro #p{
@@ -395,7 +396,7 @@ ul a{
     }
     @keyframes typing {
         from { width: 0 }
-        to { width: 30% }
+        to { width: 45% }
     }
     #small-about{
         font-size: 0.8rem;
