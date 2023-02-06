@@ -132,7 +132,7 @@ a{
 }
 
 #name{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 6rem;
     color: #81ac9d;
 }
@@ -150,14 +150,22 @@ a{
 /* Animation */
 
 .typewriter {
-    width: 55%;
-    animation: typing 4s steps(22) infinite alternate, blink .5s step-end infinite alternate;
-    white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid;
+    white-space: nowrap;
+    word-wrap: break-word;
+    font-weight: 100;
+    animation: typing 3s steps(100, end) infinite;
+    margin-top: 2rem;
   }
-  
+
   @keyframes typing {
+    from { width: 0 }
+    to { width: 27% }
+}
+
+
+  
+  /* @keyframes typing {
     from {
       width: 0
     }
@@ -167,7 +175,7 @@ a{
     50% {
       border-color: transparent
     }
-  }
+  } */
 
 
 
@@ -175,8 +183,8 @@ a{
 
 
 .card{
-    height: 20rem;
-    width: 20rem;
+    height: 500px;
+    width: 75%;
     margin-top: 2rem;
     background-color: #fff;
     border-radius: 20px;
@@ -221,6 +229,10 @@ a{
     #cv{
         bottom: 3rem;
     }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 30% }
+    }
     
 }
 
@@ -242,8 +254,8 @@ a{
         position: static;
     }
     #intro{
-        height: 20rem;
-        width: 20rem;
+        /* height: 20rem; */
+        width: 95%;
     }
     #download{
         top: -2rem;
@@ -255,7 +267,7 @@ a{
     }
     #image {
         height: 45%;
-        width: 55%;
+        width: 75%;
     }
     #name{
         font-size: 1.1rem;
@@ -264,9 +276,9 @@ a{
         font-size: 0.8rem;
 
     }
-    .typewriter{
-        width: 80%;
-    }
+    /* .typewriter{
+        width: 0%;
+    } */
     #small-about{
         font-size: 0.8rem;
         text-align: justify;
