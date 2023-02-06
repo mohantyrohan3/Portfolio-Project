@@ -160,25 +160,8 @@ a{
 
   @keyframes typing {
     from { width: 0 }
-    to { width: 27% }
+    to { width: 25% }
 }
-
-
-  
-  /* @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  } */
-
-
-
 
 
 
@@ -199,6 +182,19 @@ a{
     }
     #cv{
         bottom: 5rem;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 28% }
+    }
+    #name{
+        font-size: 2.7rem;
+        margin-bottom: 6rem;
+    }
+    #small-about{
+        font-size: 1.3rem;
+        text-align: justify;
+        width: 90%;
     }
     
 }
@@ -229,9 +225,18 @@ a{
     #cv{
         bottom: 3rem;
     }
+    #name{
+        font-size: 2rem;
+        /* margin-bottom: 6rem; */
+    }
+    #small-about{
+        font-size: 1.1rem;
+        text-align: justify;
+        width: 90%;
+    }
     @keyframes typing {
-        from { width: 0 }
-        to { width: 30% }
+    from { width: 0 }
+    to { width: 27% }
     }
     
 }
@@ -254,8 +259,12 @@ a{
         position: static;
     }
     #intro{
-        /* height: 20rem; */
-        width: 95%;
+        height: 300px;
+        width: 90%;
+    }
+    .card{
+        height: 300px;
+        width: 90%;
     }
     #download{
         top: -2rem;
@@ -270,15 +279,17 @@ a{
         width: 75%;
     }
     #name{
-        font-size: 1.1rem;
+        font-size: 1.8rem;
+        margin-bottom: 3rem;
     }
     #intro p{
         font-size: 0.8rem;
 
     }
-    /* .typewriter{
-        width: 0%;
-    } */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 30% }
+    }
     #small-about{
         font-size: 0.8rem;
         text-align: justify;
