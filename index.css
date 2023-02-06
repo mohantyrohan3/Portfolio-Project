@@ -172,7 +172,42 @@ a{
     background-color: #fff;
     border-radius: 20px;
     box-shadow : 0 5px 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
+
+
+.small-intro{
+    margin-top: 1rem;
+    text-align: center;
+    height: 5%;
+    width: 40%;
+    /* border: 2px solid  #81ac9d; */
+    border-radius: 10px;
+    font-family: cursive;
+    background-color:  #81ac9d;
+    color: white;
+    box-shadow : 0 5px 10px rgba(0,0,0,0.1);
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media  (max-width:1600px) {
@@ -253,6 +288,9 @@ a{
         height: 45%;
         width: 70%;
     }
+    .small-intro{
+        font-size: 0.8rem;
+    }
     
 }
 
@@ -309,6 +347,9 @@ a{
         font-size: 1rem;
         text-align: justify;
         width: 90%;
+    }
+    .small-intro{
+        font-size: 0.7rem;
     }
     
 }
