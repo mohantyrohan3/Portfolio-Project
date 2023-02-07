@@ -1,5 +1,7 @@
 ScrollReveal().reveal('.card',{delay:100,duration:1000,reset:true});
-
+document.onload = function(){
+    window.scrollTo(0,0);
+}
 
 
 
