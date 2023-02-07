@@ -275,7 +275,7 @@ ul a{
 
 
 #skill-card{
-    height: 400px;
+    height: fit-content;
 }
 
 
@@ -290,6 +290,48 @@ ul a{
 #name{
     font-size: 5rem;
 }
+
+.prg-lan{
+    margin-left: 1rem;
+    font-family: 'Itim', cursive;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.prg-lan span{
+    margin-bottom: 1rem;
+}
+.prg-lan i{
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+#tensorflow{
+    font-size: 4rem;
+}
+#databases{
+    margin-top: 2rem;
+}
+
+#databases-icons i{
+    font-size: 4rem;
+}
+
+#others{
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
 
 
 
