@@ -188,7 +188,7 @@ a{
 .small-intro{
     margin-top: 1rem;
     text-align: center;
-    height: 5%;
+    height: 1.5rem;
     width: 40%;
     /* border: 2px solid  #81ac9d; */
     border-radius: 10px;
@@ -264,6 +264,10 @@ ul a{
 #achi-ul li{
     margin-bottom: 2rem;
 
+}
+
+#small-intro-achi{
+    height: 1.5rem;
 }
 
 
