@@ -168,7 +168,7 @@ a{
 
 
 .card{
-    height: 500px;
+    height: fit-content;
     width: 75%;
     margin-top: 2rem;
     background-color: #fff;
@@ -178,6 +178,10 @@ a{
     /* justify-content: center; */
     flex-direction: column;
     align-items: center;
+}
+
+.achi-card{
+    height: auto;
 }
 
 
@@ -222,6 +226,7 @@ a{
     font-size: 1rem;
     margin-left: 1rem;
     color: grey;
+    margin-top: 1rem;
 }
 
 
@@ -249,6 +254,17 @@ ul a{
     height: 450px;
 }
 
+
+
+#achi-content-card{
+    height: fit-content;
+}
+
+
+#achi-ul li{
+    margin-bottom: 2rem;
+
+}
 
 
 
@@ -325,7 +341,7 @@ ul a{
         width: 90%;
     }
     .card{
-        height: 400px;
+        height: fit-content;
         width: 90%;
     }
     #image {
@@ -372,7 +388,7 @@ ul a{
         width: 90%;
     }
     .card{
-        height: 300px;
+        height: fit-content;
         width: 90%;
     }
     #download{
