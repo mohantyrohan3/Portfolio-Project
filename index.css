@@ -132,7 +132,6 @@ a{
 }
 
 #name{
-    font-size: 10rem;
     margin-bottom: 6rem;
     color: #81ac9d;
     font-family: 'Itim', cursive;
@@ -157,7 +156,6 @@ a{
     font-weight: 100;
     animation: typing 3s steps(100, end) infinite;
     margin-top: 2rem;
-    font-size: 10rem;
   }
 
   @keyframes typing {
@@ -261,7 +259,7 @@ ul a{
 }
 
 
-#achi-ul li{
+#achi-ul #last-li-achi{
     margin-bottom: 2rem;
 
 }
@@ -270,6 +268,28 @@ ul a{
     height: 1.5rem;
 }
 
+
+#volunteer-card{
+    height: 460px;
+}
+
+
+#skill-card{
+    height: 400px;
+}
+
+
+#last-li-volun{
+    margin-bottom: 1rem;
+}
+
+
+#project-card{
+    height: 500px;
+}
+#name{
+    font-size: 5rem;
+}
 
 
 
@@ -284,10 +304,10 @@ ul a{
     }
     @keyframes typing {
         from { width: 0 }
-        to { width: 27% }
+        to { width: 38% }
     }
     #name{
-        font-size: 2.1rem;
+        font-size: 4rem;
         margin-bottom: 7rem;
     }
     #small-about{
@@ -364,18 +384,14 @@ ul a{
     .first-li{
         font-size: 1rem;
     }
+    .date{
+        width: 30%;
+    }
     
 }
 
 
-#volunteer-card{
-    height: 400px;
-}
 
-
-#skill-card{
-    height: 400px;
-}
 
 
 
