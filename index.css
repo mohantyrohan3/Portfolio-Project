@@ -2,6 +2,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -325,6 +326,10 @@ ul a{
     margin-bottom: 1rem;
 }
 
+#back_top{
+    cursor: pointer;
+    height: 2rem;
+}
 
 
 
