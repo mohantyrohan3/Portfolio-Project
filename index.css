@@ -459,6 +459,9 @@ ul a{
     .first-li{
         font-size: 1rem;
     }
+    #volunteer-card{
+        height: 410px;
+    }
     
 }
 
